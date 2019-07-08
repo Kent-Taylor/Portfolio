@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/* navigation bar */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    opacity: .9;
+    padding: 80px 200px 25px 200px;
+    border-bottom: 1px solid darkgray;
+}
+
+.nav-wrapper a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.nav-wrapper a:hover {
+    color: #46a0be;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    letter-spacing: 1px;
+}
+
+.about-link {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.featured-link {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.portfolio-link {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-link {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* page container */
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.page-wrapper > .profile-image img{
+    width: 300px;
+    margin: 23px 40px 20px 0px;
+    border: 1px solid white;
+    float: left;
+}
+
+.page-wrapper > .about-txt p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}

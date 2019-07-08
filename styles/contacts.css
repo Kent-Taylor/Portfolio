@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/* navigation bar */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    opacity: .9;
+    padding: 80px 200px 25px 200px;
+    border-bottom: 1px solid darkgray;
+}
+
+.nav-wrapper a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.nav-wrapper a:hover {
+    color: #46a0be;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    letter-spacing: 1px;
+}
+
+.about-link {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.featured-link {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.portfolio-link {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-link {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* page container */
+
+.page-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.facebook-link a img {
+	width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+	box-shadow: 0 5px 15px 0px rgba(44, 44, 44, 0.6);
+	transform: translatey(0px);
+	animation: float 5s ease-in-out infinite;
+    width: 100px; height: auto;
+    padding: 25px 0px 0px 0px;
+}
+
+.facebook-link a img:hover {
+	width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+	box-shadow: 0 5px 15px 0px rgba(44, 44, 44, 0.6);
+	transform: translatey(0px);
+	animation: float 5s ease-in-out infinite;
+    width: 100px; height: auto;
+    padding: 25px 0px 0px 0px;
+    filter: brightness(110%);
+}
+
+
+.linked-in-link a img {
+	width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(250, 248, 248, 0.6);
+	transform: translatey(0px);
+	animation: float 5.5s ease-in-out infinite;
+    width: 100px; height: auto;
+    padding: 25px 0px 0px 0px;
+}
+
+.linked-in-link a img:hover {
+	width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(44, 44, 44, 0.6);
+	transform: translatey(0px);
+	animation: float 5.5s ease-in-out infinite;
+    width: 100px; height: auto;
+    padding: 25px 0px 0px 0px;
+    filter: brightness(110%);
+}
+
+.github-link a img {
+	width: 100px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(250, 248, 248, 0.6);
+	transform: translatey(0px);
+	animation: float 6.2s ease-in-out infinite;
+    width: 100px; height: auto;
+    padding: 25px 0px 0px 0px;
+}
+
+.github-link a img:hover {
+	width: 100px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(44, 44, 44, 0.6);
+	transform: translatey(0px);
+	animation: float 6.2s ease-in-out infinite;
+    width: 100px; height: auto;
+    padding: 25px 0px 0px 0px;
+    filter: brightness(110%);
+}
+
+.boldvue-link a img {
+	width: 100px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(44, 44, 44, 0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+    width: 92px; height: auto;
+    padding: 25px 0px 0px 0px;
+}
+
+.boldvue-link a img:hover {
+	width: 100px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(44, 44, 44, 0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+    width: 92px; height: auto;
+    padding: 25px 0px 0px 0px;
+    filter: brightness(110%)
+}
+
+.page-wrapper object {
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px 10px 10px;
+    height: 800px;
+    width: 1000px;
+    grid-column: 2;
+}
+
+.typeform-share-button {
+    font-family: 'Roboto Slab', serif;
+    padding: 15px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    border-left: 4px solid #670b0b;
+    border-bottom: 4px solid #670b0b;
+    background-color: #a9190a;
+    height: 35px;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 2em;
+    transition: .5s;
+}
+
+.typeform-share-button:hover {
+    font-family: 'Roboto Slab', serif;
+    padding: 35px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    border-left: 4px solid #670b0b;
+    border-bottom: 4px solid #d6af00;
+    background-color: #a9190a;
+    height: 35px;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 2em;
+    transition: .5s;
+}
+

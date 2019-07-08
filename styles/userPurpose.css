@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    border: 0;
+    overflow: scroll;
+}
+
+.page-container{
+    background-image: url(https://images.unsplash.com/photo-1537210121222-17be6deceff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    flex-direction: column;
+}
+
+.text-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Merriweather', serif;
+}
+
+.text-container p{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+    background-color: red;
+    border: transparent;
+    box-shadow: 0px 0px 65px -17px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: .2s;
+    padding: 0px 7px 0px 10px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    font-size: 2.1em;
+    background-color: red;
+    padding: 0px 7px 0px 10px;
+    border: transparent;
+    box-shadow: 0px 0px 163px 22px rgba(248, 248, 248, 0.75);
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.button:active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    font-size: 2.1em;
+    background-color: red;
+    padding: 0px 7px 0px 10px;
+    border: none;
+    box-shadow: 0px 0px 163px 22px rgba(255,255,255,1);
+    justify-content: space-around;
+    text-decoration: none;
+}
